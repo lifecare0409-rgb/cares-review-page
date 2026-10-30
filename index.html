@@ -236,8 +236,8 @@ function buildReview(){
   const open=rand(["もう何年も","ここ数年","長い間","ずっと",""]);
   const templates=[
     ()=>`${open}${reason}に悩んでいました。${prior}こちらで${treat}をしてもらい、${change}。${goodEnd}`,
-    ()=>`${change}。${reason}でずっと困っていて、${prior}こちらに通い始めました。${goodEnd}`,
-    ()=>`正直、半信半疑でした。${prior}それでも${treat}を続けるうちに、${change}。${goodEnd}`,
+    ()=>`${reason}でずっと困っていて、${prior}こちらに通い始めました。${change}。${goodEnd}`,
+    ()=>`${reason}で、正直、半信半疑でした。${prior}それでも${treat}を続けるうちに、${change}。${goodEnd}`,
     ()=>`同じように${reason}で悩んでいる方に伝えたいです。${prior}${treat}で、${change}。${goodEnd}`,
     ()=>`${reason}がつらくて、${prior}どうしようかと思っていました。こちらで${treat}をしてもらってから、${change}。${goodEnd}`,
     ()=>`${open}${reason}に悩んでいました。${prior}今は${treat}をしてもらって、${change}。${goodEnd}`,
